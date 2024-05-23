@@ -13,5 +13,5 @@ Home.layout = (page) => {
         </AuthenticatedLayout>
     )
 }
-
+//update home
 export default Home;
