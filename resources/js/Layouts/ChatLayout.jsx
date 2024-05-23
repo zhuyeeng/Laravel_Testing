@@ -1,4 +1,4 @@
-import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
+// import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { usePage } from "@inertiajs/react";
 
 const ChatLayout = ({ children }) => {
@@ -10,12 +10,10 @@ const ChatLayout = ({ children }) => {
     console.log("conversations", selectedConversations);
 
     return (
-        <AuthenticatedLayout>
+        <>
             ChatLayout
-            <div>
-                [children]
-            </div>
-        </AuthenticatedLayout>
+            <div class='text-gray-300'>{children}</div>
+        </>
     )
 }
 
